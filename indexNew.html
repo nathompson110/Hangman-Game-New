@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/styleNew.css">
+	<script type="text/javascript" src="assets/javascript/gameNew.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+
+</head>
+<body>
+<audio id ="themeSong" autoplay>
+  <source src="assets/songs/osm.mp3" type="audio/mpeg">
+</audio>
+
+
+<header class="jumbotron bg-lead text-center"> <h1> ONE SATURDAY MORNING HANGMAN</h1></header>
+<div class='row'> 
+		<div class="col-sm-6" style="white-space: nowrap;">
+			
+
+
+			<div id="main-stats" class='container'>
+				<h2 class ="rainbow">Blank Spaces:</span> <span id ='randomWord'></span> </h2>
+
+				<h2 class ="rainbow">Letters Guessed: <span id='lettersGuessed'></span> </h2>
+
+				<h2 class ="rainbow"> Number of Guesses left: <span id='counter'></span> </h2>
+
+				<h2 class ="rainbow"> Number of Wins:  <span id ='wins'></span></h2>
+				<h2 class ="rainbow">Number of Losses: <span id = 'losses'></span></h2>
+				<h2 class ="rainbow">Previous Word: <span id= 'previousWord'></span></h2>
+				
+			
+		</div>
+	</div>
+	<div class="col-sm-6">
+			<div class="text-center">
+				<div>
+				<img id = "thinkSunny" src="assets/image/osm.jpeg" style="width:250px;height: 200px">
+				<img id="tv" src ="assets/image/tv.png" style="width:400px;">
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+</body>
+</html>

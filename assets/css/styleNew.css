@@ -1,0 +1,64 @@
+
+
+h1 {
+	font-family: 'Barrio', cursive;
+	;
+
+}
+
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+/*#backgroundTv {
+	width:50px;
+	position:absolute;
+	top:25px;
+	left:25px;
+}
+#thinkSunny {
+	
+	z-index: 99;
+	*/
+/*}*/
+
+.background {
+	position: relative;
+	top:30px;
+	left:15px;
+
+}
+.image {
+	position: absolute;
+	top:30px;
+	left:15px;
+	z-index: 3;
+}
+/*body {
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:bottom; 
+}
+.container {
+  background-image: url('beach.jpg');
+  width:100%;*/
+
+}
+
+/*#main-stats {
+;*/
+	/*float:left;
+	position:absolute;
+	width: 70%;*/
+
+/*}*/
+/*#images {
+	background-color:blue;}*/
+	/*float:left;
+	position: relative;
+	width:30%;
+}*/
